@@ -72,7 +72,7 @@ a:hover {
    width: 240px;
    height: 200px;
    margin-top: -4600px;
-   margin-left: -140px;
+   margin-left: -30px;
    margin-right: 0px;
    }
 

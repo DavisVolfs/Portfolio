@@ -19,37 +19,8 @@ defineProps({
       <p class="box1"> I am goal and development oriented. Good at learning new skills and I can very easily adapt to the environment. I love job with work with technologies and design, and I have mathematical thinking. I can plan my job by myself and I like to achieve my set goals. I am good at listening and decision making. I can substantiate my opinion reasonably I have more than a year of experience working in a car tuning company where I perform all work tasks, both technical and marketing-related, participating in all levels of work to gain as much experience as possible in both technical and digital technologies in this industry.</p>
   </div>
   <hr>
-  <div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="img_nature_wide.jpg" style="width:100%">
-  <div class="text">2012 – 2024       Secondary Education, Talsi Chistian Secondary School Areas of focus: Ademic education Business development Project management Language skills Benefits: Used to work project and practice oriented Learned the public speech Learned to substantiate opinion reasonable</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="img_snow_wide.jpg" style="width:100%">
-  <div class="text">2012 – 2024       Secondary Education, Talsi Chistian Secondary School Areas of focus: Ademic education Business development Project management Language skills Benefits: Used to work project and practice oriented Learned the public speech Learned to substantiate opinion reasonable</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" style="width:100%">
-  <div class="text">2012 – 2024       Secondary Education, Talsi Chistian Secondary School Areas of focus: Ademic education Business development Project management Language skills Benefits: Used to work project and practice oriented Learned the public speech Learned to substantiate opinion reasonable</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
 </div>
 <br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
   <div>
     <h1 class="education">EDUCATION</h1>
     <div>
@@ -185,7 +156,6 @@ defineProps({
     <img src="" alt="" width="125" height="125">
   </div>
   </div>
-</div>
 <footer class="footer">
     <div class="contact">
         <h2>Contact me:</h2>
@@ -199,34 +169,6 @@ defineProps({
     </div>
 </footer>
 </template>
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
 <style scoped>
 h1 {
   font-weight: 500;
