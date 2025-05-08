@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <header class="header">
     <img alt="me" class="logo" src="./assets/me.png" width="125" height="125" />
     <div class="navi">
-    <a class="button1" href="about">ABOUT ME</a>
+    <a class="button1" href="#about">ABOUT ME</a>
     <br>
     <a class="button2" href="#education">EDUCATION</a>
     <br>
