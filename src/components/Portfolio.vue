@@ -101,16 +101,16 @@ const props = defineProps({
   </h1>
   </div>
    <div>
-    <img class="id" src="../assets/image/id.png" alt="" width="125" height="125">
+    <img class="id" src="../assets/image/in.png" alt="" width="125" height="125">
   </div>
   <div>
     <img class="ps" src="../assets/image/shop.png" alt="" width="125" height="125">
   </div>
   <div>
-    <img class="ai" src="../assets/image/ai.png" alt="" width="125" height="125">
+    <img class="ai" src="../assets/image/ill.png" alt="" width="125" height="125">
   </div>
   <div>
-    <img class="pro" src="../assets/image/pro.png" alt="" width="125" height="125">
+    <img class="pro" src="../assets/image/prem.png" alt="" width="125" height="125">
   </div>
   <div>
     <h2 class="skill">
