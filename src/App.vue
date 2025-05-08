@@ -6,19 +6,19 @@ import HelloWorld from './components/HelloWorld.vue'
   <header class="header">
     <img alt="me" class="logo" src="./assets/me.png" width="125" height="125" />
     <div class="navi">
-    <a class="button1" href="https://www.w3schools.com">ABOUT ME</a>
+    <a class="button1" href="about">ABOUT ME</a>
     <br>
-    <a class="button2" href="https://www.w3schools.com">EDUCATION</a>
+    <a class="button2" href="#education">EDUCATION</a>
     <br>
-    <a class="button3" href="https://www.w3schools.com">WORK EXPERIENCE</a>
+    <a class="button3" href="#work">WORK EXPERIENCE</a>
     <br>
-    <a class="button4" href="https://www.w3schools.com">SKILLS</a>
+    <a class="button4" href="#skills">SKILLS</a>
     <br>
-    <a class="button5" href="https://www.w3schools.com">PROJECTS</a>
+    <a class="button5" href="#projects">PROJECTS</a>
     <br>
-    <a class="button6" href="https://www.w3schools.com">CONTACT ME</a>
+    <a class="button6" href="#contact">CONTACT ME</a>
     <br>
-    <a class="button7" href="https://www.w3schools.com">FOLLOW ME</a>
+    <a class="button7" href="#follow">FOLLOW ME</a>
     </div>
     <div class="wrapper">
       <HelloWorld msg="ABOUT ME" />

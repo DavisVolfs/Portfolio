@@ -10,7 +10,7 @@ const props = defineProps({
 <div class="text">
   <div class="greetings">
   <h1 class="text">{{ msg }}</h1>
-    <h1 class="intro">
+    <h1 class="intro" id="about">
       Hello I am Davis !</h1>
       <br>
       <h1 class="intro">
@@ -21,7 +21,7 @@ const props = defineProps({
 </div>
 <br>
   <div>
-    <h1 class="education">EDUCATION</h1>
+    <h1 class="education" id="education">EDUCATION</h1>
     <div>
     <p class="edu1">
         <img class="tks" src="../assets/image/tks1.png" alt="" width="300" height="160">
@@ -62,7 +62,7 @@ const props = defineProps({
 
   <div class="text">
   <div class="greetings">
-  <h1 class="work">
+  <h1 class="work" id="work">
     WORK EXPERIENCE
   </h1>
   </div>
@@ -96,7 +96,7 @@ const props = defineProps({
   </div>
   <div class="text">
   <div>
-  <h1 class="skills">
+  <h1 class="skills" id="skills">
     SKILLS
   </h1>
   </div>
@@ -123,13 +123,13 @@ const props = defineProps({
   </div>
   
   <div class="text">
-    <h1 class="projects">
+    <h1 class="projects" id="projects">
       PROJECTS
     </h1>
   </div>
   <div class="recipepage">
     <h3 class="txt1">RecipeWebpage</h3>
-    <img class="project1" src="../assets/image/re" alt="" width="300" height="125">
+    <img class="project1" src="../assets/image/page.png" alt="" width="300" height="125">
   </div>
   <div class="webpage">
     <h3 class="txt2">GreenLife</h3>
@@ -145,12 +145,12 @@ const props = defineProps({
   </div>
   </div>
 <footer class="footer">
-    <div class="contact">
+    <div class="contact" id="contact">
         <h2>Contact me:</h2>
         <h3>davisvolfs@gmail.com</h3>
         <h3>+45 123 456 789</h3>
     </div>
-    <div class="follow">
+    <div class="follow" id="follow">
         <h2>Follow me:</h2>
         <h3><a href="https://www.linkedin.com/in/davis-volfs">Linked In</a></h3>
         <h3><a href="https://www.instagram.com/davis.volfs/?hl=en">Instagram</a></h3>
