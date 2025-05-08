@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Portfolio from './components/Portfolio.vue'
 </script>
 
 <template>
@@ -21,7 +21,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <a class="button7" href="#follow">FOLLOW ME</a>
     </div>
     <div class="wrapper">
-      <HelloWorld msg="ABOUT ME" />
+      <Portfolio msg="ABOUT ME" />
     </div>
   </header>
 
