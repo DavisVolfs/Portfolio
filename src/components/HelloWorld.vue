@@ -129,7 +129,7 @@ const props = defineProps({
   </div>
   <div class="recipepage">
     <h3 class="txt1">RecipeWebpage</h3>
-    <img class="project1" src="../assets/image/recipepage.svg" alt="" width="300" height="125">
+    <img class="project1" src="../assets/image/re" alt="" width="300" height="125">
   </div>
   <div class="webpage">
     <h3 class="txt2">GreenLife</h3>
