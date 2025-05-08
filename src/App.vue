@@ -55,7 +55,7 @@ a:hover {
   }
 
   .logo {
-    margin-top: -5160px;
+    margin-top: -4330px;
     margin-left: 10px;
     margin-right: -45px;
   }
@@ -64,16 +64,17 @@ a:hover {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
-    background: linear-gradient(180deg,rgba(48, 48, 48, 1) 0%, rgba(97, 97, 97, 1) 34%, rgba(227, 227, 227, 1) 70%, rgba(255, 255, 255, 1) 100%);}
+    background:rgba(48, 48, 48, 1)}
    }
 
    .navi{
-   text-align: end;
+   text-align: center;
    width: 240px;
    height: 200px;
-   margin-top: -4600px;
-   margin-left: -30px;
-   margin-right: 0px;
+   margin-top: -3900px;
+   margin-left: -60px;
+   margin-right: 30px;
+   padding-bottom: 5px;
    }
 
     </style>

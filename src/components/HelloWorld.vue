@@ -18,13 +18,14 @@ const props = defineProps({
       </h1>
       <p class="box1"> I am goal and development oriented. Good at learning new skills and I can very easily adapt to the environment. I love job with work with technologies and design, and I have mathematical thinking. I can plan my job by myself and I like to achieve my set goals. I am good at listening and decision making. I can substantiate my opinion reasonably I have more than a year of experience working in a car tuning company where I perform all work tasks, both technical and marketing-related, participating in all levels of work to gain as much experience as possible in both technical and digital technologies in this industry.</p>
   </div>
-  <hr>
 </div>
 <br>
   <div>
     <h1 class="education">EDUCATION</h1>
     <div>
-    <p class="edu1">2012 – 2024       Secondary Education, Talsi Chistian Secondary School
+    <p class="edu1">
+        <img class="tks" src="../assets/image/tks1.png" alt="" width="300" height="160">
+    2012 – 2024       Secondary Education, Talsi Chistian Secondary School
   Areas of focus:
   Ademic education
   Business development
@@ -37,6 +38,7 @@ const props = defineProps({
     </div>
     <div>
     <p class="edu2">
+        <img class="easv" src="../assets/image/easv1.png" alt="" width="300" height="160">
       2024      Multimedia Design course, EASV
   Areas of focus:
   work professionally with design
@@ -49,17 +51,15 @@ const props = defineProps({
     </div>
     <div>
     <p class="edu3">
+        <img class="floor" src="../assets/image/floorball1.jpg" alt="" width="300" height="160">
       2015 – 2023       Talsi Regional Sports School, Floorball Club "FK Talsi"
   Areas of focus:
   Achieving high sporting goals
   Developing discipline and a high sense of responsibility
     </p>
     </div>
-    <img class="arrows" src="../assets/image/tks1.png" alt="" width="125" height="125">
-    <img class="arrows" src="../assets/image/easv1.png" alt="" width="125" height="125">
-    <img class="arrows" src="../assets/image/floorball1.jpg" alt="" width="125" height="125">
   </div> 
-  <hr>
+
   <div class="text">
   <div class="greetings">
   <h1 class="work">
@@ -83,32 +83,24 @@ const props = defineProps({
   Follow marketing activities in the company
     </p>
   </div>
-  <img class="arrows" src="../assets/image/job1.png" alt="me" width="125" height="125">
-  <img class="arrows" src="../assets/image/job2.png" alt="me" width="125" height="125">
   <div class="jj">
+    <a href="https://www.instagram.com/jjdetailingcrew/" target="_blank">
   <img class="video" src="../assets/image/jj.png" alt=""width="400" height="600">
+  </a>
   </div>
   <div>
-    <h2 class="infobox" href="https://jjdetailing.dk/">More Info</h2>
+    <a href="https://jjdetailing.dk" target="_blank">
+    <h2 class="infobox">More Info</h2>
+  </a>
   </div>
   </div>
-  <hr>
   <div class="text">
   <div>
   <h1 class="skills">
     SKILLS
   </h1>
   </div>
-  <div>
-    <h2 class="skill">
-      IT MS Office – Super user
-  Work professionally with design
-  Communication through social media
-  Development of web solutions -
-  Photoshop, InDesign, Illustrator, After Effects, Figma, WordPress, Visual Studio Code, Photography, videography, Branding, UX, and content creation
-    </h2>
-  </div>
-  <div>
+   <div>
     <img class="id" src="../assets/image/id.png" alt="" width="125" height="125">
   </div>
   <div>
@@ -120,23 +112,36 @@ const props = defineProps({
   <div>
     <img class="pro" src="../assets/image/pro.png" alt="" width="125" height="125">
   </div>
-  <hr>
+  <div>
+    <h2 class="skill">
+      IT MS Office – Super user
+  Work professionally with design
+  Communication through social media
+  Development of web solutions -
+  Photoshop, InDesign, Illustrator, After Effects, Figma, WordPress, Visual Studio Code, Photography, videography, Branding, UX, and content creation
+    </h2>
+  </div>
+  
   <div class="text">
     <h1 class="projects">
       PROJECTS
     </h1>
   </div>
-  <div class="project1">
-    <img src="../assets/image/" alt="" width="300" height="125">
+  <div class="recipepage">
+    <h3 class="txt1">RecipeWebpage</h3>
+    <img class="project1" src="../assets/image/recipepage.svg" alt="" width="300" height="125">
   </div>
-  <div class="project2">
-    <img src="../assets/image/web2.png" alt="" width="125" height="125">
+  <div class="webpage">
+    <h3 class="txt2">GreenLife</h3>
+    <img class="project2" src="../assets/image/web2.png" alt="" width="125" height="125">
   </div>
-  <div class="project3">
-    <img src="../assets/image/CV.png" alt="" width="125" height="125">
+  <div class="CV">
+    <h3 class="txt3">Personal CV</h3>
+    <img class="project3" src="../assets/image/CV.png" alt="" width="125" height="125">
   </div>
-  <div class="project4">
-    <img src="../assets/image/buisnesscard.png" alt="" width="125" height="125">
+  <div class="card">
+    <h3 class="txt4">BuisnessCard</h3>
+    <img class="project4" src="../assets/image/buisnesscard.png" alt="" width="125" height="125">
   </div>
   </div>
 <footer class="footer">
@@ -222,7 +227,7 @@ h3 {
   margin: 50px;
   border-radius: 25px;
   margin-left: 600px;
-  margin-top: -312px;
+  margin-top: -475px;
 }
 
 .edu3{
@@ -241,6 +246,7 @@ text-align: center;
 margin-top: 50px;
 margin-left: 50px;
 }
+
 
 .job1{
 align-items: center;
@@ -263,23 +269,23 @@ background-color: rgba(183, 183, 182, 1);
   margin: 50px;
   border-radius: 25px;
   margin-left: 100px;
+  margin-bottom: -510px;
 }
 
 .jj{
   background-color: rgb(0, 0, 0);
-  width: 400px;
-  height: 600px;
+  width: 420px;
+  height: 620px;
   border: 2px solid rgb(244, 244, 35);
   padding: 50px;
   margin: 50px;
   border-radius: 25px;
   margin-left: 600px;
-  margin-top: -1010px;
 }
 
 .video{
-  margin-left: -52px;
-  margin-top: -53px;
+  margin-left: -42px;
+  margin-top: -43px;
 }
 
 .infobox{
@@ -314,6 +320,27 @@ margin-left: 50px;
   margin-bottom: -20px;
 }
 
+
+.id{
+  margin-left: 120px;
+  margin-bottom: -217px;
+}
+
+.ps{
+  margin-left: 370px;
+margin-bottom: -195px;
+}
+
+.ai{
+  margin-left: 620px;
+margin-bottom: -172px;
+}
+
+.pro{
+  margin-left: 870px;
+margin-bottom: -150px;
+}
+
 .projects{
   text-align: center;
   margin-top: 50px;
@@ -321,7 +348,7 @@ margin-left: 50px;
   margin-left: 50px;
 }
 
-.project1{
+.recipepage{
   text-align: center;
   background-color: rgba(183, 183, 182, 1);
   width: 400px;
@@ -333,7 +360,7 @@ margin-left: 50px;
   margin-left: 100px;
 }
 
-.project2{
+.webpage{
   text-align: center;
   background-color: rgba(183, 183, 182, 1);
   width: 400px;
@@ -345,7 +372,7 @@ margin-left: 50px;
   margin-left: 100px;
 }
 
-.project3{
+.CV{
   text-align: center;
   background-color: rgba(183, 183, 182, 1);
   width: 400px;
@@ -358,7 +385,7 @@ margin-left: 50px;
   margin-top: -500px;
 }
 
-.project4{
+.card{
   text-align: center;
   background-color: rgba(183, 183, 182, 1);
   width: 400px;
@@ -372,6 +399,38 @@ margin-left: 50px;
   margin-bottom: 70px;
 }
 
+.txt1{
+  margin-top: -30px;
+}
+
+.txt2{
+  margin-top: -30px;
+}
+
+.txt3{
+  margin-top: -30px;
+}
+
+.txt4{
+  margin-top: -30px;
+}
+
+.project1{
+margin-top: 0px;
+}
+
+.project2{
+margin-top: 0px;
+}
+
+.project3{
+margin-top: 0px;
+}
+
+.project4{
+margin-top: 0px;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -381,8 +440,12 @@ margin-left: 50px;
     text-align: center;
 }
 
-.contact, .follow {
+.contact{
     color:rgba(14, 5, 89, 1);
+}
+.follow{
+  color:rgba(14, 5, 89, 1);
+  margin-right: 200px;
 }
 
 h2 {
