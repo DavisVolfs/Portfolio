@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
   msg: {
     type: String,
     required: true,
@@ -55,12 +55,9 @@ defineProps({
   Developing discipline and a high sense of responsibility
     </p>
     </div>
-    <img class="arrows" src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img class="arrows" src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img class="arrows" src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img class="arrows" src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img class="arrows" src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img class="arrows" src="./assets/arrow.svg" alt="" width="125" height="125">
+    <img class="arrows" src="../assets/image/tks1.png" alt="" width="125" height="125">
+    <img class="arrows" src="../assets/image/easv1.png" alt="" width="125" height="125">
+    <img class="arrows" src="../assets/image/floorball1.jpg" alt="" width="125" height="125">
   </div> 
   <hr>
   <div class="text">
@@ -86,12 +83,10 @@ defineProps({
   Follow marketing activities in the company
     </p>
   </div>
-  <img class="arrows" src="./assets/arrow.svg" alt="me" width="125" height="125">
-  <img class="arrows" src="./assets/arrow.svg" alt="me" width="125" height="125">
-  <img class="arrows" src="./assets/arrow.svg" alt="me" width="125" height="125">
-  <img class="arrows" src="./assets/arrow.svg" alt="me" width="125" height="125">
+  <img class="arrows" src="../assets/image/job1.png" alt="me" width="125" height="125">
+  <img class="arrows" src="../assets/image/job2.png" alt="me" width="125" height="125">
   <div class="jj">
-  <img class="video" src="./assets/jj.png" alt=""width="400" height="600">
+  <img class="video" src="../assets/image/jj.png" alt=""width="400" height="600">
   </div>
   <div>
     <h2 class="infobox" href="https://jjdetailing.dk/">More Info</h2>
@@ -114,16 +109,16 @@ defineProps({
     </h2>
   </div>
   <div>
-    <img class="id" src="./assets/id.png" alt="" width="125" height="125">
+    <img class="id" src="../assets/image/id.png" alt="" width="125" height="125">
   </div>
   <div>
-    <img class="ps" src="./assets/ps.png" alt="" width="125" height="125">
+    <img class="ps" src="../assets/image/ps.png" alt="" width="125" height="125">
   </div>
   <div>
-    <img class="ai" src="./assets/ai.png" alt="" width="125" height="125">
+    <img class="ai" src="../assets/image/ai.png" alt="" width="125" height="125">
   </div>
   <div>
-    <img class="pro" src="./src/assets/pro.png" alt="" width="125" height="125">
+    <img class="pro" src="../assets/image/pro.png" alt="" width="125" height="125">
   </div>
   <hr>
   <div class="text">
@@ -132,28 +127,16 @@ defineProps({
     </h1>
   </div>
   <div class="project1">
-    <img src="./src/components/arrow.svg" alt="" width="125" height="125">
-    <img src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img src="./assets/recipe.png" alt="" width="125" height="125">
-    <img src="" alt="" width="125" height="125">
+    <img src="../assets/image/" alt="" width="300" height="125">
   </div>
   <div class="project2">
-    <img src="./public/image/arrow.svg" alt="" width="125" height="125">
-    <img src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img src="./assets/poster.png" alt="" width="125" height="125">
-    <img src="" alt="" width="125" height="125">
+    <img src="../assets/image/web2.png" alt="" width="125" height="125">
   </div>
   <div class="project3">
-    <img src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img src="./assets/webpage1.png" alt="" width="125" height="125">
-    <img src="" alt="" width="125" height="125">
+    <img src="../assets/image/CV.png" alt="" width="125" height="125">
   </div>
   <div class="project4">
-    <img src="./src/components/assets/arrow.svg" alt="" width="125" height="125">
-    <img src="./assets/arrow.svg" alt="" width="125" height="125">
-    <img src="./assets/greenlife.png" alt="" width="125" height="125">
-    <img src="" alt="" width="125" height="125">
+    <img src="../assets/image/buisnesscard.png" alt="" width="125" height="125">
   </div>
   </div>
 <footer class="footer">
