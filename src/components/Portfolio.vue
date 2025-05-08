@@ -104,7 +104,7 @@ const props = defineProps({
     <img class="id" src="../assets/image/id.png" alt="" width="125" height="125">
   </div>
   <div>
-    <img class="ps" src="../assets/image/ps.png" alt="" width="125" height="125">
+    <img class="ps" src="../assets/image/shop.png" alt="" width="125" height="125">
   </div>
   <div>
     <img class="ai" src="../assets/image/ai.png" alt="" width="125" height="125">
